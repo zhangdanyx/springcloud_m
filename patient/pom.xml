@@ -5,6 +5,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>app</module>
+		<module>register</module>
 		<module>api</module>
 		<module>support</module>
 	</modules>
