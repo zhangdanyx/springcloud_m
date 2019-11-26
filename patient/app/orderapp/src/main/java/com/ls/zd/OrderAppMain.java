@@ -10,7 +10,6 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
-@ComponentScan(basePackages = { "com.ls.zd" })
 public class OrderAppMain {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(OrderAppMain.class, args);
